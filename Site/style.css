@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+body{
+	background-image:url(image/fond.jpg);
+	background-size:100%;
+	background-attachment:fixed;
+}
+
+header, div, footer{
+	background-color: rgba(255,255,255,0.7);
+	text-align: center;
+}
+
+#conteneur{
+	display:flex;
+	justify-content: space-around;
+}
+
+div div{
+	margin: 1px;
+}
+
+a{
+	color:#000;
+	text-decoration:none;
+}
+
+#retour{
+	font-style: italic;
+	color: #FFF;
+	text-align: center;
+}
